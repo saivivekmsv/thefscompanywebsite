@@ -3,21 +3,21 @@ import {Button, Form} from "react-bootstrap";
 import { Formik, Field } from "formik";
 import { isEmpty } from "lodash";
 const initialValues=[];
-const pizzaSize = [
-    {
-        lable: "small",
-        value: 1
-    },
-    {
-        lable: "medium",
-        value: 2
-    },
-    {
-        lable: "large",
-        value: 3
-    },
+// const pizzaSize = [
+//     {
+//         lable: "small",
+//         value: 1
+//     },
+//     {
+//         lable: "medium",
+//         value: 2
+//     },
+//     {
+//         lable: "large",
+//         value: 3
+//     },
 
-]
+// ]
 export const BackSide = (props) => {
     const {userClick} = props;
     const onFormSubmit = (values,{setFieldError}) => {

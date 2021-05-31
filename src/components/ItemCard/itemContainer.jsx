@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sample from "../../assets/images.jpg";
-import {Image, Col, Row, Button, InputGroup, ToggleButton, ButtonGroup} from "react-bootstrap";
+import {Image, Col, Row, Button} from "react-bootstrap";
 import ReactFlipCard from "react-card-flip";
 import { BackSide } from "./backSide";
 

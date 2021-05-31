@@ -1,7 +1,7 @@
 import React from "react";
 import * as ReactBootstrap from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import  {faPlusCircle}  from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import  {faPlusCircle}  from "@fortawesome/free-solid-svg-icons";
 
 const CartTable =() => {
     return (

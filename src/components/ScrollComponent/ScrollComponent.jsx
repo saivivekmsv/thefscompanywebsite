@@ -1,11 +1,11 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Pizza from "../../assets/pizza.jpg";
 import Shake from "../../assets/shake.jpg";
 import Parallax from 'react-rellax';
 import {Link} from "react-router-dom";
 import { Image, Button, Row, Col,Container } from "react-bootstrap";
-import {faPizzaSlice} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {faPizzaSlice} from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ScrollComponent = () => {
   return (
     <Container fluid>

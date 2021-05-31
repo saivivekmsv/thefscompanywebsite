@@ -1,5 +1,5 @@
 import React from "react";
-import {ItemCard, NavHeader, Footer} from "../../components";
+import {ItemCard, NavHeader} from "../../components";
 
 const OrderContainer = () => {
     return (
