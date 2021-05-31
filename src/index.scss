@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./App.scss";
+@import "./styles/index.scss";
+
+
+.navbar,
+.navbar-default {
+    
+    position: relative;
+    background-image: none !important; /* override background image gradient w/ flat color */
+    z-index: 10;
+}
+
+.carousel-style {
+    margin-top: -80px;
+    position:absolute;    
+    width: 100%
+}
+.ht-50 {
+    height: 50rem;
+}
